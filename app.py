@@ -29,7 +29,7 @@ def container_info():
             env_string += f"{k}: <Error: {e}>\n"
 
     return f"""
-    <h1>Container Information - New Version</h1>
+    <h1>Container Information</h1>
     <ul>
         <li><strong>Hostname:</strong> {hostname}</li>
         <li><strong>IP Address:</strong> {ip_address}</li>
